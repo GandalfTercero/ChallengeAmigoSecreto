@@ -14,4 +14,7 @@ function agregarAmigo(){
         alert("Por favor inserte un nombre.");
         return;
     }
+
+    //Agregar los nombres a la lista
+    amigos.push(usuarioAmigos);
  }
