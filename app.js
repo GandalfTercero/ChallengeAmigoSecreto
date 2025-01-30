@@ -17,8 +17,13 @@ function agregarAmigo(){
 
     //Agregar los nombres a la lista
     amigos.push(usuarioAmigos);
+    //Se llama a la función para que limpie la cajita.
+    limpiarCaja();
+    return;
  }
 
+ //Se crea esta función para que se limpie la caja cada vez que se da click a "agregar", se utilizó otra
+ //  forma de llamar por el id del input.
 function limpiarCaja(){
     let valorCaja=document.querySelector('#amigo');
     valorCaja.value = '';
