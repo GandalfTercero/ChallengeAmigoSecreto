@@ -18,3 +18,8 @@ function agregarAmigo(){
     //Agregar los nombres a la lista
     amigos.push(usuarioAmigos);
  }
+
+function limpiarCaja(){
+    let valorCaja=document.querySelector('#amigo');
+    valorCaja.value = '';
+}
