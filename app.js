@@ -7,5 +7,11 @@ function agregarAmigo(){
     console.log(usuarioAmigos);
     //El return detiene la ejecución de la función en el punto en el que se encuentra. Cualquier código
     //  que venga después del return nunca se ejecutará.
-    return
+    //return
+
+    //Verificar si el input está vacío tanto en el valor como en el tipo de dato.
+    if (usuarioAmigos === ""){
+        alert("Por favor inserte un nombre.");
+        return;
+    }
  }
