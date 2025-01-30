@@ -3,8 +3,9 @@
 let amigos = [];
  //Función para que el usuario pueda ingresar nombres y añadirlo a la lista.
 function agregarAmigo(){
-    let usuarioAmigos = document.getElementById('amigo').value;
-    console.log(usuarioAmigos);
+    //Me di cuenta que se pueden agegar espacios, voy a corregir eso agregando trim()
+    let usuarioAmigos = document.getElementById('amigo').value.trim();
+    
     //El return detiene la ejecución de la función en el punto en el que se encuentra. Cualquier código
     //  que venga después del return nunca se ejecutará.
     //return
@@ -19,6 +20,7 @@ function agregarAmigo(){
     amigos.push(usuarioAmigos);
     //Se llama a la función para que limpie la cajita.
     limpiarCaja();
+    console.log(usuarioAmigos);
     return;
  }
 
