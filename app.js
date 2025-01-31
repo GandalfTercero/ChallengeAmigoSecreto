@@ -18,7 +18,7 @@ function agregarAmigo(){
 
     //Verificar si el nombre ya existe en la lista.
     if (amigos.includes(nombre)){
-        alert("Ya existe este nombre en la lista");
+        alert("Ya existe este nombre en sus amigos.");
     }
 
     //Agregar los nombres a la lista
@@ -53,4 +53,23 @@ function crearListaAmigos(){
         //Mostrar la lista en la página web.
         lista.appendChild(li);
       }
+}
+
+
+let resultado = document.getElementById('resultado');
+//Función para sortear el amigo
+function sortearAmigo(){
+    //verificar si hay amigos en la lista, si no, notificarlo en la página.
+    if (amigos.length === 0){
+        resultado.textContent = "No hay más amigos para sortear."
+	  return;
+    }
+    //Generar un índice aleatorio
+	let indiceAleatorio = Math.floor(Math.random()*amigos.length);
+    // Obtener el nombre del amigo sorteado por medio de la posición de los amigos en la lista.
+	let amigoSorteado = amigos[indiceAleatorio];
+    //eliminar el amigo sorteado de la lista.
+    amigos.splice(indiceAleatorio, 1);
+    // Mostrar el resultado en el elemento HTML
+	resultado.textContent = `El amigo sorteado es: ${amigoSorteado}`;
 }
