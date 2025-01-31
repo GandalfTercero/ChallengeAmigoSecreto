@@ -25,6 +25,7 @@ function agregarAmigo(){
     amigos.push(nombre);
     //Se llama a la función para que limpie la cajita.
     limpiarCaja();
+    crearListaAmigos();
     console.log(nombre);
     return;
 }
