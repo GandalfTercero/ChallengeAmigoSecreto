@@ -1,4 +1,5 @@
 <h1 align="center"> 🎁 Amigo Secreto </h1>
+![Image_1](assets/Captura de pantalla 2025-02-01 085839.png)
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-%20Concluído-green">
@@ -12,3 +13,5 @@ Aplicación web diseñada para simplificar y agregar rapidéz al tradicional jue
 2. Evitar repeticiones: La aplicación garantiza que ningún nombre sea seleccionado más de una vez.
 3. Realizar sorteo: Con un solo clic, se genera una asignación aleatoria de amigos secretos.
 4. Visualización de resultados: Los resultados del sorteo se muestran de forma clara y organizada.
+
+
