@@ -1,5 +1,5 @@
 <h1 align="center"> 🎁 Amigo Secreto </h1>
-![Image_1](https://github.com/GandalfTercero/ChallengeAmigoSecreto/blob/19dd470a88fd7e6a49c0d13d5605aa65af61d4c0/assets/Captura%20de%20pantalla%202025-02-01%20085839.png)
+![Image_1](Reemplaza ese enlace, por este: https://raw.githubusercontent.com/GandalfTercero/ChallengeAmigoSecreto/19dd470a88fd7e6a49c0d13d5605aa65af61d4c0/assets/Captura%20de%20pantalla%202025-02-01%20085839.png)
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-%20Concluído-green">
