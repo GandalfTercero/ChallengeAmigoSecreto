@@ -1,6 +1,6 @@
 <h1 align="center"> 🎁 Amigo Secreto </h1>
-<!-- <img src="assets/imagen_preview.png"></img> -->
-![Image Challenge Amigo Secreto](./assets/imagen_preview.png)
+<img src="assets/imagen_preview.png"></img>
+
 
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-%20Concluído-green">
